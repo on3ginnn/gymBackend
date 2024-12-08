@@ -6,5 +6,5 @@ from rest_framework_simplejwt import views as jwt_views
 
 urlpatterns = [
     path('auth/', include('users.urls')),
-    path('nutrient/', include('nutrient.urls')),
+    path('aboniment/', include('aboniment.urls')),
 ]
